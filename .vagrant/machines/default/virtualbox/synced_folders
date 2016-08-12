@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/snahider/Git/infrastructure-as-code","disabled":false},"vagrant-cache":{"id":"vagrant-cache","guestpath":"/tmp/vagrant-cache","hostpath":"/Users/snahider/.vagrant.d/cache/ubuntu14.04-x86","disabled":false}}}
