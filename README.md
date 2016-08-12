@@ -1,3 +1,4 @@
-# jenkins
+# Infrastructure as Code
 
-Presentación Test Driven Infrastructure Agiles 2015
+- Code examples of 'Infrastructure as Code' presentation.
+- [Slides 'Infrastructure as Code'](http://slides.com/snahider/infrastructure-as-code)
