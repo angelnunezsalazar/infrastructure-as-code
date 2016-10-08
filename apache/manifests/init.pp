@@ -11,6 +11,6 @@ class apache{
 	file { '/var/www/html/index.html':
 		content => '<h1>Hello World</h1>',
 		mode => '644',
-		ensure => present,
+		ensure => present
 	}
 }

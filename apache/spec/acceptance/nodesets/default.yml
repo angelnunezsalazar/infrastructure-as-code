@@ -1,11 +1,7 @@
 HOSTS:
-  ubuntu-1404-x86:
-    roles:
-      - masterless
-    platform: ubuntu-1404-x86_64
-    hypervisor: vagrant
-    box: ubuntu14.04-x86
-    box_url: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-i386-vagrant-disk1.box
+  ubuntu-1604-64:
+    platform: ubuntu-16.04-x64
+    image: ubuntu-puppet:16.04
+    hypervisor: docker
 CONFIG:
-  masterless: true
-  consoleport: 443
+  type: foss
