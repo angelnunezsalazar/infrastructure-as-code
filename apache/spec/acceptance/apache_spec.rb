@@ -12,7 +12,7 @@ describe 'apache class' do
     	it{should be_enabled}
     end
 
-     describe port(80) do
+    describe port(80) do
     	it{should be_listening}
     end
 end

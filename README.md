@@ -5,6 +5,10 @@
 
 ## Vagrant
 
+Ingresar al contenedor Docker
+
+	$ docker run -v $PWD:/puppet-modules -it ubuntu-puppet bash 
+
 Ingresar a la máquina Vagrant
 
 	$ vagrant up
@@ -14,7 +18,7 @@ Ingresar a la máquina Vagrant
 
 Aplicar los recursos de un archivo (ingresar primero a la máquina vagrant)
 
-	$ cd /vagrant
+	$ cd {/vagrant, /puppet-modules}
 	$ sudo puppet apply --modulepath=. apache/examples/init.pp
 
 Agregar de manera 'inline' lo que se quiere aplicar
@@ -51,7 +55,7 @@ Ejecutar pruebas funcionales
 
 Otros parámetros de Beaker
 
-	$ beaker --host redhat7-64ma.yml --pre-suite install.rb --test mytest.rb
+	$ beaker --host spec/acceptance/nodesets/docker-ubuntu-1604-x64.yml --pre-suite install.rb --test mytest.rb
 
 ## Mejoras
 
