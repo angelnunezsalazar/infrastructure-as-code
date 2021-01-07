@@ -243,7 +243,7 @@ GEM
       puppet-lint (~> 2.0)
       puppet-syntax (~> 2.0)
       rspec-puppet (~> 2.0)
-    rake (11.3.0)
+    rake (13.0.3)
     rbvmomi (1.9.4)
       builder (~> 3.2)
       json (>= 1.8)
