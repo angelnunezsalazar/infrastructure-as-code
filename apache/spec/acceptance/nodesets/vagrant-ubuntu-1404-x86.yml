@@ -4,7 +4,7 @@ HOSTS:
       - masterless
     platform: ubuntu-16.04-x64
     hypervisor: vagrant
-    box: ubuntu/xenial64
+    box: puppetlabs/ubuntu-16.04-64-puppet
     box_url: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-i386-vagrant-disk1.box
 CONFIG:
   masterless: true
