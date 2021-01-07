@@ -44,7 +44,7 @@ GEM
     docker-api (1.32.1)
       excon (>= 0.38.0)
       json
-    excon (0.54.0)
+    excon (0.78.1)
     facter (2.4.6)
       CFPropertyList (~> 2.2.6)
     faraday (0.10.0)
